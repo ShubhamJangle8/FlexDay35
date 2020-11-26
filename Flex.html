@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <title>Mobile Legends Assasins</title>
+        <title>Mobile Legend Characters</title>
         <style>
             body{
                 padding: 2em;
@@ -21,35 +21,38 @@
                 background: lightgreen;
                 font-weight: bold;
                 padding: 10px;
-            }       
-            .mainContainer {
-                display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: column;
-    max-height: 100vh;
             }
-            .mainContainer img {
-                margin: 10px;
-                border: 3px solid #000;
-                box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
-                max-width: 23vw;
+            .media {
+                display: flex;
+                align-items: flex-start;
+                background: #F6F3EB;
+                padding: 2em;
+                border-radius: 3px;
+                max-width: 48em;
+            }
+            .media-object {
+                margin-right: 1em;
+            }
+            .media-body {
+                flex: 1;
+            }
+            .media-heading {
+                margin: 0 0 .5em;
             }
         </style>
     </head>
     <body>
-        <header class="headerContainer">Mobile Legends Assasins</header>
-        <div class="mainContainer">
-            <img src="../assets/gusion.jfif" alt="Gusion">
-            <img src="../assets/lance.jfif" alt="Lancelot">
-            <img src="../assets/helcurt.jfif" alt="Helcurt">
-            <img src="../assets/hayabusa.jfif" alt="Hayabusa">
-            <img src="../assets/karina.jfif" alt="Karina">
-            <img src="../assets/hanzo.jfif" alt="Hanzo">
-            <img src="../assets/selena.jfif" alt="Selena">
-            <img src="../assets/saber.jfif" alt="Saber">
-            <img src="../assets/bendetta.jfif" alt="Bendetta">
+        <header class="headerContainer">Mobile Legend Characters</header>
+        <div class="media"></di>
+            <img src="../assets/gusion.jfif" alt="HairStylist" class="media-object">
+            <div class="media-body">
+                <h3 class="media-heading">Gusion HairStylist</h3>
+                <p>Gusion is a strong Great Duke of Hell, and rules over forty legions of demons.
+                     He tells all past, present and future things, shows the meaning of all questions that are asked to him,
+                      reconciles friends, and gives honor and dignity.
+                      He is depicted as a baboon or according to some, in the form of a Cynocephalus. He is mentioned in The Lesser Key of Solomon.</p>
+            </div>
         </div>
         <footer class="footerContainer">Footer</footer>
     </body>
-</html> 
+</html>
